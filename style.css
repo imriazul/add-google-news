@@ -1,0 +1,44 @@
+  .rss-name {
+      color: #212529;
+  }
+
+  .rss-img {
+      display: block;
+      flex-shrink: 0;
+      height: 4rem;
+      margin: 1rem;
+      width: 4rem;
+      border-radius: 4px;
+      overflow: hidden;
+      position: relative;
+      transition: box-shadow .2s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+      -webkit-box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.16), 0 1px 2px 0 rgba(0, 0, 0, 0.26);
+      box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.16), 0 1px 2px 0 rgba(0, 0, 0, 0.26);
+  }
+
+  .rss-follow {
+      margin-top: 5px;
+      color: #137333;
+      font-size: 14px;
+  }
+
+  .rss-a {
+      border: 1px solid #dadce0;
+      border-radius: .5rem;
+  }
+
+  .flex-align1 {
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-align-items: center;
+      -ms-flex-align: center;
+      align-items: center
+  }
+
+  .live-txt {
+      background: #E7F4EA;
+      padding: 0 10px;
+      border-radius: 40px;
+      margin-right: 12px;
+  }
